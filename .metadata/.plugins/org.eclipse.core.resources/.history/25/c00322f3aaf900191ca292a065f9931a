@@ -1,0 +1,5 @@
+package com.appdeveloperblog.api.users.serviceimpl;
+
+public class UserServiceImpl {
+
+}

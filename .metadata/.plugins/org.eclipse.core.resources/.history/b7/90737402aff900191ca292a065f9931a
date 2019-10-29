@@ -1,0 +1,18 @@
+package com.appdeveloperblog.api.users.serviceimpl;
+
+import com.appdeveloperblog.api.users.shared.UserDto;
+
+import java.util.UUID;
+
+import com.appdeveloperblog.api.users.service.UserService;
+
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public UserDto createUser(UserDto userDetails) {
+		// TODO Auto-generated method stub
+		userDetails.setUserId(UUID.randomUUID().toString());
+		return null;
+	}
+
+}

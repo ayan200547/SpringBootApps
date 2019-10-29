@@ -1,0 +1,5 @@
+package com.developerblog.app.ws.model;
+
+public class UserResponseModel {
+
+}

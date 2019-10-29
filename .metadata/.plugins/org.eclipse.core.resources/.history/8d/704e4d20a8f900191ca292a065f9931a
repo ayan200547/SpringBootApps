@@ -1,0 +1,9 @@
+package com.appdeveloperblog.api.users.ui.model;
+
+public class CreateUserRequestModel {
+	private String firstName;
+	private String lastname;
+	private String password;
+	private String email;
+	
+}

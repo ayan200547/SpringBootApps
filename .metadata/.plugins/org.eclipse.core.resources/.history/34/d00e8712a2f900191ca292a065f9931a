@@ -1,0 +1,5 @@
+package com.appdeveloperblog.api.users.ui.model;
+
+public class CreateUserRequestModel {
+
+}
